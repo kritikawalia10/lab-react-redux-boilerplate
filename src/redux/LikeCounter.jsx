@@ -23,8 +23,8 @@ const LikeCounter = () => {
     return(
         <div>
             <h1>{likes}</h1>
-            <button onClick={increase}>Increment</button>
-            <button onClick={decrease}>Decrement</button>
+            <button onClick={increase}>Like</button>
+            <button onClick={decrease}>Unlike</button>
         </div>
     )
 }
